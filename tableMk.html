@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Comatible" content="IE-chrome"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<title>表格增删改查</title>
+		<style>
+			table{
+				width:100%;
+				margin-top: 20px;							
+				border-collapse:collapse;
+			}
+			th,td{
+				border:1px solid blue;
+				text-align: center;
+				padding: 8px;				
+			}
+			th{
+				background-color: #447db5;
+			}
+			td{
+				background-color: #e5c6d0;
+			}
+			button{
+				margin-right:10px;				
+			}
+			#newAdd{
+				margin-right:auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align: center;">CREWLIST</h1>
+		<button id="newAdd" onclick="addRow()">新增数据</button>
+		<table id="table">
+			 <tr>
+				 <th>姓名</th>
+				 <th>联系方式</th>
+				 <th>生日</th>
+				 <th>操作</th>
+			 </tr>
+			 <tr>
+				 <td>朱敏</td>
+				 <td>15021898545</td>
+				 <td>1976.04.21</td>
+				 <td>					 
+					 <button onclick="editRow(this)">编辑</button><button onclick="deleteRow(this)">删除</button>
+				 </td>
+			 </tr>
+		</table>
+		<script src="tableMk.js">
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>第2个vue3.0</title>
+    <style>
+		img{
+			width: 200px;
+			height: 300px;			
+		}
+		.container img:nth-child(1){			
+			background-color: transparent;
+			filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.8));		
+		}
+		div img:nth-child(2){			
+			filter: blur(2px);		
+		}
+		div img:nth-child(3){
+			background: rgb(255,255,25,0.2);
+			border: 2px solid rgba(25, 25, 255, 0.2);
+			box-shadow: rgba(0,0,0,0.2);
+			backdrop-filter: blur(5px);		
+		}
+		
+    </style>  
+	
+</head>
+<body>
+	<div class="container">
+		<img src="./img/cover.png" alt="">
+		<img src="./img/K1.jpg" alt="">
+		<img src="./img/cover3.png" alt="">
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	img#bigPic{
+		width: 280px;
+		height: 280px;
+	}
+	img.smallPic{
+		width: 40px;
+	}
+	/* 小图标浮动起来的写法 */
+	ul{
+		list-style:none;
+		overflow:hidden;
+	}
+	ul li{
+		float: left;
+		width:40px;
+		height:40px;
+		margin-left:5px;
+		margin-top:10px;				
+		border: 2px solid white;
+	}
+	ul li.active{
+		border-color:red
+	}

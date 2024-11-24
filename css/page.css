@@ -1,0 +1,136 @@
+body{			
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: darkgreen;
+}
+/* *{
+	border: 1px solid black;
+} */
+.flexR{
+	display: flex;		
+}
+/* 主区域占满整个右边块 */
+.flexC{
+	flex: 1;
+	overflow: auto;
+}
+.column{
+	flex-direction: column;	
+}
+a{
+	text-decoration: none;
+}
+
+/* 侧边栏背景设置为白色 */
+.baiSe{
+	background-color: #fff;	
+}
+.heSe{
+	background-color: dimgrey;
+}
+.huangSe{
+	background-color: yellow;
+}
+.aquaSe{
+	background-color: aquamarine;
+}
+.roseSe{
+	background-color: rosybrown;
+}
+.indiSe{
+	background-color: indigo;
+}
+
+
+.tb{
+	width: 300px;
+	height: 80px;
+	margin: 10px 20px;
+	border-bottom: 1px solid lightgray;
+	color: #fff;
+	/* text-align: center; */
+}
+img{
+	width: 40px;
+	height: 40px;	
+	border-radius: 15%;
+	margin-top: 20px;
+	margin-left: 0px;
+	line-height: 80px;		
+}
+.nm{		
+	margin:0 auto;
+	margin-left: 15px;
+	line-height: 80px;
+	color: #fff;
+}
+
+.dhl{
+	width: 300px;
+	height: 30px;
+	margin: 10px 20px;
+	border-bottom: 1px solid lightgray;
+	color: #fff;
+	background-color: dimgrey;
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+.clearfix::after{	
+	content:"";
+	display:block;
+	clear:both;
+ }
+
+.tbl{	
+	height: 60px;
+	margin-left: 5px;	
+	background-color: rgba(220,220,220,0.75);;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.35);
+	line-height: 60px;
+	z-index: 1;
+	
+}
+.tbl .topnav{	
+	padding: 0;
+	
+}
+.tbl .topnav>li{
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 10px;	
+	list-style: none;
+	float: left;		
+	width: 150px;
+	text-align: center;
+}
+.tbl .topnav>li:hover{
+	background-color: #fff;
+	border: 1px solid dimgrey;
+	border-bottom: none;
+	cursor: pointer;
+}
+.tbl .topnav>li .submenu{
+	text-align: right;
+	line-height: 1.5;
+	width: 100px;
+}
+.sjk{
+	height: 200px;
+	margin: 5px;
+	border-radius: 5%;
+}
+.lbx{
+	height: 100px;
+	margin: 5px;
+	border-radius: 2%;
+}
+
+.yzq{	
+	margin: 5px;
+	border-radius: 5%;
+}
+
+
+			

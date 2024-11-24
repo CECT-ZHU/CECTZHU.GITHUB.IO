@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width,initial-scale=1.0,
+						minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>flex弹性盒子</title>
+
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				display: flex;				
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+			}
+			.contain{
+				width: 400px;
+				height: 400px;
+				background-color: aquamarine;
+				overflow: hidden;				
+				
+			}
+
+			ul {
+				list-style-type: none;
+				/* list-style-image: url("./img/K1 -small.jpg");*/	
+				border: 1px solid black;
+				margin: 150px 150px;
+				text-align: center;	
+				line-height: 100%;				
+			}
+
+			li {
+				width: 100px;
+				/* border: 1px solid red; */
+				background-color: lightblue;				
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="contain">
+			<ul>
+				<li>春晓</li>
+				<li>春眠不觉晓</li>
+				<li>处处闻啼鸟</li>
+				<li>夜来风雨声</li>
+				<li>花落知多少</li>
+			</ul>
+		</div>
+	</body>
+</html>

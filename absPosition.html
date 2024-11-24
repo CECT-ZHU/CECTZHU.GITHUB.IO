@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		.Pa{
+			width: 500px;
+			background-color: grey;
+			padding: 20px;
+			position: relative;
+		}			
+		.Ch1{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		.Ch2{
+			width: 200px;
+			height: 200px;
+			background-color: orange;
+			top: 20px;
+			left: 20px;
+			position: absolute;	
+			transition: 3s;
+		}
+		.Ch3{
+			width: 200px;
+			height: 200px;
+			background-color: deepskyblue;
+		}
+		
+		.Pa:hover{
+			cursor: pointer;
+		}
+		/* 注意选择.Ch2的表示中间有个空格 */
+		.Pa:hover .Ch2{
+			opacity: 0.1;	 
+			top: 220px;
+		}
+	</style>
+	
+	<body>
+		<div class="Pa">
+			<div class="Ch1">1</div>
+			<div class="Ch2">2</div>
+			<div class="Ch3">3</div>
+		</div>
+	</body>
+</html>

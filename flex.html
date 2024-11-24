@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width,initial-scale=1.0,
+						minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>flex弹性盒子</title>
+		<style>
+			html {
+				font-size: 10px;
+			}
+			.container{
+				display:flex;
+				width: 700px;
+				height: 400px;
+				background-color: aqua;
+				/* justify-content:space-evenly; */
+				flex-direction: row;
+				flex-wrap: wrap;	
+				/* align-items: center;				 */			
+				align-content:start;	
+			}
+			.item{
+				width: 100px;
+				height:100px;
+				font-size: 8rem;
+				/* margin: 0 auto; */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item"; style="background-color: yellow;">1</div>
+			<div class="item"; style="background-color: blue;">2</div>
+			<div class="item"; style="background-color: red;">3</div>
+			<div class="item"; style="background-color: green;">4</div>
+			<div class="item"; style="background-color: purple;">5</div>
+			<div class="item"; style="background-color: hotpink;">6</div>
+			<div class="item"; style="background-color: springgreen;">7</div>
+			<div class="item"; style="background-color: lightsteelblue;">8</div>
+			<div class="item"; style="background-color: rebeccapurple;">9</div>			
+		</div>
+	</body>
+</html>

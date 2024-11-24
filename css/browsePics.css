@@ -1,0 +1,13 @@
+img#pic{
+		width: 200px;
+		height:200px;
+		/* overflow: hidden; */
+		}
+div{
+	width: 200px;
+	line-height: 60px;
+	} 
+button{
+		width: 60px;
+		float: left;
+		}

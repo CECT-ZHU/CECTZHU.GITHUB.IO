@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			const myIterable = {
+				[Symbol.iterator]() {
+					let step = 0;
+					return {
+						next() {
+							step += 1;
+							return {
+								value: step,
+								done: step > 5
+							};
+						}
+					};
+				}
+			};
+
+			for (const value of myIterable) {
+				console.log(value);
+			}
+		</script>
+
+
+	</body>
+</html>
